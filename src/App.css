@@ -1,0 +1,139 @@
+* {
+  text-align: center;
+}
+p{
+  margin-top: -9px;
+  color: white;
+}
+h1{
+  color: white;
+}
+@media screen and (max-width: 767px) {
+h1{
+ 
+  font-size: 25px;
+}
+.div1{
+  width: 350px !important;
+  height: 510px !important;
+  margin-left: 44px !important ;
+  
+}
+.hpara{
+  margin-top: 80px;
+}
+.div2{
+  width: 350px !important;
+  height: 240px !important;
+  margin-left: 44px !important ;
+  
+}
+img{
+  width:470px !important;
+  height: 755px !important;
+}
+.first{
+  margin-left: 10px !important;
+ 
+    padding: 14px !important;
+    width:290px !important;
+    margin-bottom: 10px !important;
+
+
+}
+.last{
+  padding: 14px !important;
+  width:290px !important;
+}
+.mobile{
+  /* margin-left: 5px !important; */
+  margin-top: 10px !important;
+    padding: 14px !important;
+    width:290px !important;
+}
+.register{
+  font-size: 18px !important;
+  padding: 8px !important;
+
+}
+}
+.div1{
+  width: 500px;
+  height: 520px;
+  margin-top: 20%;
+  border-radius: 10px;
+  background: rgba(248, 246, 246, 0.2); 
+  backdrop-filter: blur(10px);
+}
+
+body{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.mobile{
+  width: 380px;
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: start;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.first{
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: start;
+  width: 170px;
+  margin-right: 10px;
+  font-size: 17px;
+  
+  
+}
+.last{
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: start;
+  width: 170px;
+  font-size: 17px;
+  
+  
+}
+.register{
+  background-color:#9b59b6;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  font-size: larger;
+  font-weight: 600;
+}
+.register:hover{
+  cursor: pointer;
+  background-color: #591e71;
+}
+input:hover{
+  background-color: rgb(211, 211, 247);
+}
+.div2{
+  width: 500px;
+  height: 270px;
+  margin-top: 200px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+}
